@@ -1,0 +1,11 @@
+.place__paragraph {
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0 0 26px 0;
+  padding: 0;
+}
+
+.place__paragraph:nth-of-type(2n) {
+  margin: 0;
+}
