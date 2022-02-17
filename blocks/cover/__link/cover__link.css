@@ -2,14 +2,31 @@
   text-decoration: none;
   position: relative;
   width: 100%;
-  max-width: 1184px;
-  min-height: 760px;
+  height: 740px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   z-index: 0;
   box-sizing: border-box;
+}
+
+@media  screen and (max-width: 1279px) {
+  .cover__link {
+    height: 640px;
+  }
+}
+
+@media  screen and (max-width: 1023px) {
+  .cover__link {
+    height: 480px;
+  }
+}
+
+@media  screen and (max-width: 767px) {
+  .cover__link {
+    height: 200px;
+  }
 }
 
 .cover__link:before {

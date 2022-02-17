@@ -8,13 +8,15 @@
 
 @media  screen and (max-width: 1279px) {
   .header {
-    max-width: 928px;
+    width: 91%;
+    padding-bottom: 48px;
   }
 }
 
 @media  screen and (max-width: 1023px) {
   .header {
     max-width: 720px;
+    padding-bottom: 48px;
   }
 }
 
@@ -22,5 +24,6 @@
   .header {
     min-width: 288px;
     max-width: 90%;
+    padding: 16px 0 48px;
   }
 }

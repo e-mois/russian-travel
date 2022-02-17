@@ -3,3 +3,11 @@
   padding: 0;
   display: flex;
 }
+
+@media  screen and (max-width: 767px) {
+  .footer__list {
+    align-items: start;
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
+}
