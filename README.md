@@ -15,4 +15,4 @@
 * Оптимизированные изображения
 * Сглаженные шрифты
 
-[Ссылка на проект](https://github.com/e-mois/russian-travel)
+[Ссылка на проект](https://e-mois.github.io/russian-travel/index.html)
