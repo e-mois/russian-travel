@@ -2,6 +2,6 @@
   margin: 0 16px 0 0;
 }
 
-.header__item:nth-of-type(2) {
+.header__item:last-of-type {
   margin: 0;
 }

@@ -14,14 +14,15 @@
 @media  screen and (max-width: 1279px) {
   .place {
     grid-template-columns: 440px auto;
-    gap: 48px 32px;
+    row-gap: 32px;
   }
 }
 
 @media  screen and (max-width: 1023px) {
   .place {
     grid-template-columns: 340px auto;
-    gap: 48px 28px;
+    row-gap: 28px;
+    margin-bottom: 73px;
   }
 }
 
@@ -29,6 +30,6 @@
   .place {
     grid-template-columns: 100%;
     row-gap: 32px;
-    margin-bottom: 64px;
+    margin-bottom: 50px;
   }
 }
